@@ -20,34 +20,40 @@ app.get('/lab4/', (req, res)=>{
 
 //Display Cars
 app.get('/lab4/cars/', (req, res)=>{
-
+	
  db.serialize(()=>{
-  db.all("SELECT * FROM cars;", (err, table)=>{
-		  res.json('table');
+  db.all("SELECT * FROM Cars;", (err, table)=>{
+	res.json(table);
+
 	})
-  })
+ })
+ 
 });
 
 //Display Owners
 app.get('/lab4/owners/', (req, res)=>{	
+
   db.serialize(()=>{
-	  db.all("SELECT * FROM owners;", (err, table)=>{
+	  db.all("SELECT * FROM Owners;", (err, table)=>{
 		  res.json(table);
 	})
   })
+
 });
+
 //Display Judges  
 app.get('/lab4/judges/', (req, res)=>{	
   db.serialize(()=>{
-	  db.all("SELECT * FROM judges;", (err, table)=>{
+	  db.all("SELECT * FROM Judges;", (err, table)=>{
 		  res.json(table);
 	})
   })
 });
+
 //Display Scores
 app.get('/lab4/scores/', (req, res)=>{	
   db.serialize(()=>{
-	  db.all("SELECT * FROM scores;", (err, table)=>{
+	  db.all("SELECT * FROM Scores;", (err, table)=>{
 		  res.json(table);
 	})
   })
