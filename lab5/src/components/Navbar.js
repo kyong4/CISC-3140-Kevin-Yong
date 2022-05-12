@@ -4,9 +4,10 @@ const Navbar = () => {
  return (
   <nav>
    <ul className="menus">
-    {menuItems.map((menu, index) => {
-     return <MenuItems items={menu} key={index} />;
-    })}
+   {menuItems.map((menu, index) => {
+    const depthLevel = 0;
+    return <MenuItems items={menu} key={index} depthLevel={depthLevel} />;
+   })}
    </ul>
   </nav>
  );

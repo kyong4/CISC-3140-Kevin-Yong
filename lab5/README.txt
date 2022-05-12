@@ -1,6 +1,7 @@
-Lab 5
+Lab 5 by Kevin Yong
 
-Goal: Make a multi-level dropdown.
+Goal: Make a multi-level dropdown. (Credits to @Ibaslogic and his tutorial.)
+Features: On smaller screens, click to open the dropdown. On larger screens, hovering can open the dropdown.
 ▪ Registering a new car: Click on ‘New car’ -> Fill in form, click submit -> View
 confirmation page with detail saved
 ▪ Changing an email: Select a record from list of active car owners => update
