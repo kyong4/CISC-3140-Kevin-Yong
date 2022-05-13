@@ -8,12 +8,6 @@ const App = () => {
           Cars
         </a>   
 
-        <a href="http://localhost:8000/lab4/cars"> 
-            See database
-        </a> 
-
-        
-
         <Navbar />
       </div>
     </header>
