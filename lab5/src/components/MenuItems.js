@@ -1,5 +1,5 @@
 import Dropdown from "./Dropdown";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";    
 
 const MenuItems = ({ items, depthLevel }) => {
     const [dropdown, setDropdown] = useState(false);
@@ -52,7 +52,7 @@ const MenuItems = ({ items, depthLevel }) => {
      submenus={items.submenu} 
         dropdown={dropdown} 
         depthLevel={depthLevel}
-
+        
      />
     </>
    ) : (

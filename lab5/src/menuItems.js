@@ -6,25 +6,21 @@ export const menuItems = [
     {
         title: "New Car",
         submenu: [
-
          {
                 title: "Fill in form",
-               
                },
-         
          {
-          title: "View Confirmation"
+             title: "View Confirmation"
          }
         ]
        },
-
-
     {
      title: "Changing an email"
   ,
      submenu: [
        {
         title: "Select a record from list of active car owners",
+        
         submenu: [
 
             {
@@ -36,3 +32,5 @@ export const menuItems = [
        },]
     }
    ];
+
+   

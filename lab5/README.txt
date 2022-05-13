@@ -1,6 +1,17 @@
 Lab 5 by Kevin Yong
 
-Goal: Make a multi-level dropdown. (Credits to @Ibaslogic and his tutorial.)
+Goal: Dropdown menu frontend, that redirects to the backend and allows adding/editting of the backend files.
+Learn how to make dropdown menu.
+Learn how to connect frontend to backend.
+Learn how to add/edit backend files.
+Learn how to use js,html,css.
+
+Storyboard:
+Home
+New Car -> Fill in form OR View Confirmation 
+Changing an email -> Choose which record to change.
+
+Make a multi-level dropdown. (Credits to @Ibaslogic and his tutorial.)
 Features: On smaller screens, click to open the dropdown. On larger screens, hovering can open the dropdown.
 ▪ Registering a new car: Click on ‘New car’ -> Fill in form, click submit -> View
 confirmation page with detail saved

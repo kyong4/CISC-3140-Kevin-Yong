@@ -5,7 +5,7 @@ const App = () => {
     <header>
       <div className="nav-area">
         <a href="/#" className="logo">
-          Logo
+          Cars
         </a>
         <Navbar />
       </div>
