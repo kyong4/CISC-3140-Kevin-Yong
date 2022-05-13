@@ -12,6 +12,8 @@ const App = () => {
             See database
         </a> 
 
+        
+
         <Navbar />
       </div>
     </header>

@@ -8,9 +8,11 @@ export const menuItems = [
         submenu: [
          {
                 title: "Fill in form",
+                href:"http://google.com",
                },
          {
-             title: "View Confirmation"
+             title: "View Confirmation",
+             href:"/#"
          }
         ]
        },
@@ -20,12 +22,11 @@ export const menuItems = [
      submenu: [
        {
         title: "Select a record from list of active car owners",
-        
         submenu: [
 
             {
                    title: "Update field(s)",
-
+                   href:"http://google.com",
                   },
                 ]
 
