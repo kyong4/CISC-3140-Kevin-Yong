@@ -26,3 +26,4 @@ Import the Sample data: git submodule add -f https://gist.github.com/d66a59b6db4
 Known bugs:
 Add should insert email to the database.
 Update should change current email of the database.
+Currently, as a placeholder update and Fill in form redirects to http://google.com
