@@ -6,6 +6,8 @@ Learn how to connect frontend to backend.
 Learn how to add/edit backend files.
 Learn how to use js,html,css.
 
+To test, run npm start on lab4 and lab5 folder.
+
 Storyboard:
 Home
 New Car -> Fill in form OR View Confirmation 
@@ -18,7 +20,8 @@ confirmation page with detail saved
 ▪ Changing an email: Select a record from list of active car owners => update
 field(s), click submit
 
+Process:
 While in the CISC-3140-Kevin-Yong folder, GIT Bash and create lab5 folder for react: npx create-react-app lab5
-
 Import the Sample data: git submodule add -f https://gist.github.com/d66a59b6db4e59c16efd4c42ad411f8e.git data
+
 
